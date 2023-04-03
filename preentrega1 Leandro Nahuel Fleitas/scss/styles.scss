@@ -1,0 +1,12 @@
+@import "partials/contacto";
+@import "partials/header";
+@import "partials/main";
+@import "partials/footer";
+@import "partials/recetas";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import "partials/error404";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}

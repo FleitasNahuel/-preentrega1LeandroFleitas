@@ -1,0 +1,47 @@
+.conteiner{
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 3vh 3vw;
+    margin-left:0;
+    padding: 2vh 2vw;
+}
+.conteiner .card{
+    display: flex;
+    flex-direction: column;
+    width: 31vw;
+    height: 43vh;
+    /* border-radius: ; */
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0,2);
+    overflow: hidden;
+    margin: 5vw;
+    text-align: center;
+    transition: all 0.25s;
+}
+.card{
+    width: 75vw;
+    height: 50vh;
+}
+.conteiner .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12vh 16vw rgba(0, 0, 0, 0,2);
+}
+.conteiner .card img{
+    width: 25vw;
+    height: 20vh;
+}
+.conteiner .card h3{
+    background-color: salmon  ;
+    border-radius: 1vw;
+    font-size: 2vh;
+    color: aliceblue;
+    margin-top: 1;
+    margin-bottom: 4vh;
+    padding: 1vh;
+    max-height: 25vh;
+    max-width: 22.75vw;
+    padding: 1vh 
+}

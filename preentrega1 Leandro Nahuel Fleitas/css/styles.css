@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* acá empieza la nav */
+.mi-navbar{
+    background-color: #96C7C1;
+}
+.mi-li{
+    font-size: 2vw;
+    color: #0a083d;
+    text-decoration: none;
+    padding: 1vw;
+}
+/* acá termina la nav */
+/* acá empieza el main */
+.fondo-index{
+    background-image:url(https://img.freepik.com/foto-gratis/almuerzo-saludable-llevar-empacado-lonchera_1220-4541.jpg?w=2000);
+    background-repeat: none;
+    background-size: 100%;
+}
+
+
+h2{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 4vh;
+    font-weight: 600;
+    color: rgb(124, 202, 176);
+    padding: 3vh 2vw;
+}  
+h3{
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 600;
+    color: #1a315a;
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 1vh;
+    margin: 0%; 
+}      
+
+/* acá temrina el main */
+/* acá empieza las cards */
+.h3-card{
+    display: flex;
+    text-align: center;
+    border: none;
+    background-color: #f7cf2f;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    height: 15vh;
+}
+.h3-card1{
+    display: flex;
+    text-align: center;
+    border: none;
+    background-color: #FF7F3F;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    height: 15vh;
+}
+.cards-index:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12vh 16vw rgba(0, 0, 0, 0,2);
+}
+/* acá termina las cards */
+/* acá empieza el footer */
+.fondo-footer{
+   background-color: #96C7C1;
+}
+#h2-footer{
+    color: #0a083d;
+    font-weight: 900;
+    font-size: 3vw;
+}
+/* acá termina el footer */
+.position-carrousel{
+    padding-bottom: 50%;
+}

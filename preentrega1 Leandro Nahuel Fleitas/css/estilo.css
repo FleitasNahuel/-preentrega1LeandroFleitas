@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+.form-register {
+  background-image: url(https://nuten.es/wp-content/uploads/2021/09/hojas-2-1.png);
+  width: 400px;
+  background-color: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+.form-register p a:hover {
+  color: white;
+  text-decoration: rgb(124, 202, 176);
+}
+.form-register .controls {
+  width: 100%;
+  background-color: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-size: 18px;
+}
+.form-register .h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+header .mi-navbar {
+  background-color: #96C7C1;
+}
+header .mi-navbar .mi-li {
+  font-size: 2vw;
+  color: #0a083d;
+  text-decoration: none;
+  padding: 1vw;
+}
+
+.fondo-index {
+  background-image: url(https://img.freepik.com/foto-gratis/almuerzo-saludable-llevar-empacado-lonchera_1220-4541.jpg?w=2000);
+  background-repeat: none;
+  background-size: 100%;
+}
+.fondo-index h1 {
+  display: flex;
+  justify-content: center;
+  color: #1a315a;
+  text-align: center;
+  font-weight: 600;
+  padding: 1vh 15vw;
+  border-radius: 3vh;
+  border-style: dashed;
+  border-color: #1a315a;
+  height: auto;
+  width: 25%;
+  font-size: 100%;
+}
+.fondo-index .d-flex #card-index {
+  background-color: rgb(237, 224, 29);
+  border-radius: 2vw;
+  height: 7vh;
+  color: white;
+}
+.fondo-index .d-flex #card-index-2 {
+  background-color: #EA907A;
+  border-radius: 2vw;
+  height: 7vh;
+  color: rgb(255, 255, 253);
+}
+.fondo-index h2 {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  font-size: 4vh;
+  font-weight: 600;
+  color: rgb(124, 202, 176);
+  padding: 3vh 2vw;
+}
+.fondo-index h3 {
+  text-align: center;
+  font-size: 3vh;
+  font-weight: 600;
+  color: #1a315a;
+  font-family: "Roboto Mono", monospace;
+  padding-bottom: 1vh;
+  margin: 0%;
+}
+
+.fondo-footer {
+  background-color: #96C7C1;
+}
+.fondo-footer #h2-footer {
+  color: #0a083d;
+  font-weight: 900;
+  font-size: 3vw;
+}
+
+#bg-recetas {
+  background-color: rgba(31, 19, 120, 0);
+}
+#bg-recetas p {
+  color: rgb(3, 3, 67);
+}
+
+.bg-error404 {
+  background-color: rgb(208, 208, 208);
+  list-style: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/*# sourceMappingURL=estilo.css.map */

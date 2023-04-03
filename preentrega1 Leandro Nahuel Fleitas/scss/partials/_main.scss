@@ -1,0 +1,52 @@
+.fondo-index{
+    background-image:url(https://img.freepik.com/foto-gratis/almuerzo-saludable-llevar-empacado-lonchera_1220-4541.jpg?w=2000);
+    background-repeat: none;
+    background-size: 100%;
+    h1{
+        display: flex;
+        justify-content: center;
+        color: #1a315a;
+        text-align: center;
+        font-weight: 600;
+        padding: 1vh 15vw;
+        border-radius: 3vh;
+        border-style:dashed;
+        border-color:#1a315a;    
+        height: auto;
+        width: 25%;
+        font-size: 100%;    
+    }
+    .d-flex{
+        #card-index{
+                background-color: rgb(237, 224, 29);
+                border-radius: 2vw;
+                height: 7vh;
+                color: white;
+        }
+        #card-index-2{
+            background-color: #EA907A;
+                border-radius: 2vw;
+                height: 7vh;
+                color: rgb(255, 255, 253);
+
+        }
+    }
+    
+    h2{
+        font-family: 'Roboto Mono', monospace;
+        text-align: center;
+        font-size: 4vh;
+        font-weight: 600;
+        color: rgb(124, 202, 176);
+        padding: 3vh 2vw;
+    }  
+    h3{ 
+        text-align: center;
+        font-size: 3vh;
+        font-weight: 600;
+        color: #1a315a;
+        font-family: 'Roboto Mono', monospace;
+        padding-bottom: 1vh;
+        margin: 0%; 
+    }
+}
